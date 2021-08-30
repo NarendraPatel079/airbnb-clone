@@ -1,20 +1,14 @@
-import Head from 'next/head';
-import Banner from '../components/Banner';
-import Footer from '../components/Footer';
-import LargeCard from '../components/LargeCard';
-import MediumCard from '../components/MediumCard';
-import SmallCard from '../components/SmallCard';
 import Header from './../components/Header';
+import Banner from '../components/Banner';
+import SmallCard from '../components/SmallCard';
+import MediumCard from '../components/MediumCard';
+import LargeCard from '../components/LargeCard';
+import Footer from '../components/Footer';
 
 export default function Home({ exploreData, liveAnywhereData }) {
   
   return (
     <div className="">
-      <Head>
-        <title>AirBNB Clone</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      
       {/* Header */}
       <Header />
 
